@@ -1,10 +1,10 @@
-import iso_jis from './din';
+import ansi from './din';
 import quantum from './quantum';
 import settings from './kb-settings';
 import media from './app-media-mouse';
 import steno from './steno';
 const state = {
-  keycodes: [ ...iso_jis, ...quantum, ...settings, ...media]
+  keycodes: [...ansi,  ...quantum, ...settings, ...media]
 };
 
 const getters = {
@@ -23,7 +23,7 @@ const actions = {};
 const mutations = {
   enableSteno(state) {
     state.keycodes = [
-      ...iso_jis,
+      ...ansi,
       ...quantum,
       ...settings,
       ...media,
@@ -31,7 +31,7 @@ const mutations = {
     ];
   },
   disableSteno(state) {
-    state.keycodes = [ ...iso_jis, ...quantum, ...settings, ...media];
+    state.keycodes = [...ansi,  ...quantum, ...settings, ...media];
   }
 };
 
