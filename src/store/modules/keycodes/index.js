@@ -4,28 +4,11 @@ import din from './din';
 import quantum from './quantum';
 import settings from './kb-settings';
 import media from './app-media-mouse';
-import steno from './steno';
-const state = {
-  keycodes: [...din, ...quantum, ...settings, ...media]
-};
-
-const getters = {
-  keycodes: state => state.keycodes,
-  lookupKeyPressCode: (state, getters) => searchTerm =>
-    getters.lookupKeycode(searchTerm, true),
-  lookupKeycode: state => (searchTerm, isKeys = false) => {
-    var found = state.keycodes.find(({ code, keys }) => {
-      return code === searchTerm || (isKeys && keys && keys === searchTerm);
-    });
-    return found;
-  }
-};
-
-const actions = {};
-const mutations = {
-  enableSteno(state) {
+@@ -26,14 +27,22 @@ const mutations = {
     state.keycodes = [
-	  ...din,
+      ...ansi,
+      ...iso_jis,
+      ...din,
       ...quantum,
       ...settings,
       ...media,
@@ -33,14 +16,14 @@ const mutations = {
     ];
   },
   disableSteno(state) {
-    state.keycodes = [ ...din, ...quantum, ...settings, ...media];
+    state.keycodes = [...ansi, ...iso_jis, ...quantum, ...settings, ...media];
+    state.keycodes = [
+      ...ansi,
+      ...iso_jis,
+      ...din,
+      ...quantum,
+      ...settings,
+      ...media
+    ];
   }
-};
-
-export default {
-  namespaced: true,
-  state,
-  getters,
-  actions,
-  mutations
 };
