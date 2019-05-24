@@ -4,7 +4,7 @@ import din from './din';
 import quantum from './quantum';
 import settings from './kb-settings';
 import media from './app-media-mouse';
-@@ -26,14 +27,22 @@ const mutations = {
+const mutations = {
     state.keycodes = [
       ...ansi,
       ...iso_jis,
