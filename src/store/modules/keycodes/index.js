@@ -1,6 +1,6 @@
 import ansi from './ansi';
 import iso_jis from './iso-jis';
-import iso_jis from './din';
+import din from './din';
 import quantum from './quantum';
 import settings from './kb-settings';
 import media from './app-media-mouse';
