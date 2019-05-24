@@ -151,6 +151,7 @@ export default [
   { name: '"', code: 'LSFT(KC_2)', keys: '"' },
   { name: '§', code: 'LSFT(KC_3)', keys: '§' },
   { name: '$', code: 'LSFT(KC_4)', keys: '$' },
+  { name: '€', code: 'ALGR(KC_E)', keys: '€' },
   { name: '%', code: 'LSFT(KC_5)', keys: '%' },
   { name: '&', code: 'LSFT(KC_6)', keys: '&' },
   { name: '/', code: 'LSFT(KC_7)', keys: '/' },
@@ -169,7 +170,6 @@ export default [
   { name: '²', code: 'ALGR(KC_2)', keys: '²' },
   { name: '³', code: 'ALGR(KC_3)', keys: '³' },
   { name: '@', code: 'ALGR(KC_Q)', keys: '@' },
-  { name: '€', code: 'ALGR(KC_E)', keys: '€' },
   { name: '~', code: 'ALGR(DE_PLUS)', keys: '~' },
   { name: '?', code: 'ALGR(KC_MINS)', keys: '"' }
 ];
