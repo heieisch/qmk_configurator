@@ -114,7 +114,7 @@ export default [
   { name: ';\n,', code: 'KC_COMM', keys: ',' },
   { name: ':\n.', code: 'KC_DOT', keys: '.' },
   { name: '_\n-', code: 'KC_SLSH', keys: '-' },
-  { width: 1000 }
+  { width: 1000 },
   { name: 'Right Shift', code: 'KC_RSFT', width: 1750 },
   { width: 1250 },
   { name: 'Up', code: 'KC_UP', keys: 'up' },
