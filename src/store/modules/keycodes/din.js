@@ -164,6 +164,7 @@ export default [
   { name: '<', code: 'KC_NUBS', keys: '<' },
   { name: '>', code: 'LSFT(KC_NUBS)', keys: '>' },
   { name: ':', code: 'LSFT(KC_DOT)', keys: ':' },
+  { name: ';', code: 'LSFT(KC_COMM)', keys: ':' },
   { name: '|', code: 'ALGR(KC_NUBS)', keys: '|' },
   { name: '²', code: 'ALGR(KC_2)', keys: '²' },
   { name: '³', code: 'ALGR(KC_3)', keys: '³' },
