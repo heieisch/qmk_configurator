@@ -171,5 +171,5 @@ export default [
   { name: '@', code: 'ALGR(KC_Q)', keys: '@' },
   { name: '€', code: 'ALGR(KC_E)', keys: '€' },
   { name: '~', code: 'ALGR(DE_PLUS)', keys: '~' },
-  { name: '?\', code: 'ALGR(KC_MINS)', keys: '"' }
+  { name: '?', code: 'ALGR(KC_MINS)', keys: '"' }
 ];
