@@ -35,7 +35,7 @@ const mutations = {
     ];
   },
   disableSteno(state) {
-    state.keycodes = [...ansi, ...iso_jis, ...quantum, ...settings, ...media];
+    state.keycodes = [...ansi, ...iso_jis, ...din, ...quantum, ...settings, ...media];
   }
 };
 
