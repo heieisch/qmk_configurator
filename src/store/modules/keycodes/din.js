@@ -144,8 +144,22 @@ export default [
   { name: 'Enter', code: 'KC_PENT', keys: 'num_enter' },
 
 
-  { label: 'WIP symbols WIP', width: 'label' },
+  { label: 'Syntax', width: 'label' },
+  { name: '/', code: 'LSFT(KC_7)', keys: '/' },
+  { name: '(', code: 'LSFT(KC_8)', keys: '(' },
+  { name: ')', code: 'LSFT(KC_9)', keys: ')' },
+  { name: '[', code: 'ALGR(KC_8)', keys: '[' },
+  { name: ']', code: 'ALGR(KC_9)', keys: ']' },
+   { name: '<', code: 'KC_NUBS', keys: '<' },
+  { name: '>', code: 'LSFT(KC_NUBS)', keys: '>' },
 
+
+  { label: 'All', width: 'label' },
+
+  { name: '%', code: 'LSFT(KC_5)', keys: '%' },
+  { name: '&', code: 'LSFT(KC_6)', keys: '&' },
+  { name: '°', code: 'LSFT(KC_GRAVE)', keys: '^' },
+  { name: '!', code: 'LSFT(KC_1)', keys: '!' },
   { name: '°', code: 'LSFT(KC_GRAVE)', keys: '^' },
   { name: '!', code: 'LSFT(KC_1)', keys: '!' },
   { name: '"', code: 'LSFT(KC_2)', keys: '"' },
@@ -167,7 +181,7 @@ export default [
   { name: '<', code: 'KC_NUBS', keys: '<' },
   { name: '>', code: 'LSFT(KC_NUBS)', keys: '>' },
   { name: ':', code: 'LSFT(KC_DOT)', keys: ':' },
-  { name: ';', code: 'LSFT(KC_COMM)', keys: ':' },
+  { name: ';', code: 'LSFT(KC_COMM)', keys: ';' },
   { name: '|', code: 'ALGR(KC_NUBS)', keys: '|' },
   { name: '²', code: 'ALGR(KC_2)', keys: '²' },
   { name: '³', code: 'ALGR(KC_3)', keys: '³' },
