@@ -176,6 +176,8 @@ export default [
   { name: '=', code: 'LSFT(KC_0)', keys: '=' },
   { name: '?', code: 'LSFT(KC_MINS)', keys: '?' },
   { name: '`', code: 'LSFT(KC_EQL)', keys: '`' },
+  
+  
   { name: '{', code: 'ALGR(KC_7)', keys: '{' },
   { name: '}', code: 'ALGR(KC_0)', keys: '}' },
   { name: '<', code: 'KC_NUBS', keys: '<' },
