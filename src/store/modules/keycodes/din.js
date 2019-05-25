@@ -157,6 +157,8 @@ export default [
   { name: '/', code: 'LSFT(KC_7)', keys: '/' },
   { name: '(', code: 'LSFT(KC_8)', keys: '(' },
   { name: ')', code: 'LSFT(KC_9)', keys: ')' },
+  { name: '[', code: 'ALGR(KC_8)', keys: '[' },
+  { name: ']', code: 'ALGR(KC_9)', keys: ']' },
   { name: '=', code: 'LSFT(KC_0)', keys: '=' },
   { name: '?', code: 'LSFT(KC_MINS)', keys: '?' },
   { name: '`', code: 'LSFT(KC_EQL)', keys: '`' },
