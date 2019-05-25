@@ -154,7 +154,7 @@ export default [
   { name: '>', code: 'LSFT(KC_NUBS)', keys: '>' },
 
 
-  { label: 'Teil 1', width: 'label' },
+  { label: 'All' width: 'label' },
 
   { name: '%', code: 'LSFT(KC_5)', keys: '%' },
   { name: '&', code: 'LSFT(KC_6)', keys: '&' },
@@ -177,7 +177,6 @@ export default [
   { name: '?', code: 'LSFT(KC_MINS)', keys: '?' },
   { name: '`', code: 'LSFT(KC_EQL)', keys: '`' },
   
-   { label: 'Teil 2', width: 'label' },
   
   { name: '{', code: 'ALGR(KC_7)', keys: '{' },
   { name: '}', code: 'ALGR(KC_0)', keys: '}' },
