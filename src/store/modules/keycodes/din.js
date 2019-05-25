@@ -154,7 +154,7 @@ export default [
   { name: '>', code: 'LSFT(KC_NUBS)', keys: '>' },
 
 
-  { label: 'All' width: 'label' },
+  { label: 'All', width: 'label' },
 
   { name: '%', code: 'LSFT(KC_5)', keys: '%' },
   { name: '&', code: 'LSFT(KC_6)', keys: '&' },
